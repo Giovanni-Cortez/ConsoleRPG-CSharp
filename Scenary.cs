@@ -5,13 +5,13 @@ namespace RPG
     //Classe responsável por organizar o decorrer da campanha, como textos, escolhas, interaões e fluxos de ambientes
     internal class Scenary
     {
-        public static SoundPlayer menuMusic = new SoundPlayer("mus_menu0.wav");
-        public static SoundPlayer battleMusic = new SoundPlayer("mus_battle1.wav");
-        static SoundPlayer beginMusic = new SoundPlayer("mus_story.wav");
-        static SoundPlayer walkGrass = new SoundPlayer("minecraft-walking-on-grass.wav");
-        static SoundPlayer lostWoods = new SoundPlayer("35-Lost-Woods.wav");
-        static SoundPlayer jawsTheme = new SoundPlayer("jaws-theme_TDORPKA.wav");
-        static SoundPlayer suspense = new SoundPlayer("st069.wav");
+        public static SoundPlayer menuMusic = new SoundPlayer(@"Audios\mus_menu0.wav");
+        public static SoundPlayer battleMusic = new SoundPlayer(@"Audios\mus_battle1.wav");
+        static SoundPlayer beginMusic = new SoundPlayer(@"Audios\mus_story.wav");
+        static SoundPlayer walkGrass = new SoundPlayer(@"Audios\minecraft-walking-on-grass.wav");
+        static SoundPlayer lostWoods = new SoundPlayer(@"Audios\35-Lost-Woods.wav");
+        static SoundPlayer jawsTheme = new SoundPlayer(@"Audios\jaws-theme_TDORPKA.wav");
+        static SoundPlayer suspense = new SoundPlayer(@"Audios\st069.wav");
 
         public void letterBegin()
         {
